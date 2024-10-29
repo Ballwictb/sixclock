@@ -56,7 +56,6 @@ function toggleTheme() {
 
 document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
 
-// Cargar preferencias guardadas
 window.addEventListener('load', () => {
     const savedTheme = localStorage.getItem('darkTheme');
     if (savedTheme === 'true') {
