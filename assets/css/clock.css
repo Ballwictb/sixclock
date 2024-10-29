@@ -1,0 +1,57 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --accent-color: #3498db;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    text-align: center;
+}
+
+#clock {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+#timer {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+input,
+button {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.theme-toggle {
+    margin-top: 1rem;
+}
+
+footer {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+}
+
+a {
+    color: var(--accent-color);
+}
+
+.dark-theme {
+    --bg-color: #202020;
+    --text-color: #ecf0f1;
+    --accent-color: #3498db;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SixClock</title>
+    <link rel="stylesheet" href="./assets/css/clock.css">
+    <link rel="shortcut icon" href="./assets/img/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+    <img src="./assets/img/clock.svg" width="200" alt="">
+    <div class="container">
+        <div id="clock"></div>
+        <div id="timer">00:00:00</div>
+        <input type="number" id="hours" placeholder="Horas" min="0" max="23">
+        <input type="number" id="minutes" placeholder="Minutos" min="0" max="59">
+        <input type="number" id="seconds" placeholder="Segundos" min="0" max="59">
+        <button id="start-timer">Iniciar Temporizador</button>
+        <button id="stop-timer">Detener Temporizador</button>
+        <div class="theme-toggle">
+            <button id="theme-toggle">Cambiar Tema</button>
+        </div>
+    </div>
+    <footer>
+        <p>Creado por Ballwictb | <a href="https://github.com/ballwictb" target="_blank">GitHub</a> | <a
+                href="https://www.youtube.com/@ballwictb" target="_blank">Youtube</a></p>
+    </footer>
+
+    <script src="./assets/js/clock.js"></script>
+</body>
+
+</html>
